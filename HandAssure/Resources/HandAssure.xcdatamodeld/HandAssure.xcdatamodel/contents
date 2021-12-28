@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17511" systemVersion="20B50" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="NotificationData" representedClassName=".NotificationData" syncable="YES" codeGenerationType="class">
+        <attribute name="goals_number" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="notification_id" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="notification_status" attributeType="Boolean" defaultValueString="NO" usesScalarValueType="YES"/>
+        <attribute name="notification_time" attributeType="Date" defaultDateTimeInterval="627560220" usesScalarValueType="NO"/>
+        <attribute name="received_date" attributeType="Date" defaultDateTimeInterval="627815160" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Scheduler" representedClassName=".Scheduler" syncable="YES" codeGenerationType="class">
+        <attribute name="id" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="status" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES"/>
+        <attribute name="time" attributeType="Date" defaultDateTimeInterval="627468420" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Setting" representedClassName=".Setting" syncable="YES" codeGenerationType="class">
+        <attribute name="is_selected" optional="YES" attributeType="Boolean" defaultValueString="YES" usesScalarValueType="YES"/>
+        <attribute name="week_day" attributeType="String" defaultValueString=""/>
+        <attribute name="week_value" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="NotificationData" positionX="-126" positionY="54" width="128" height="104"/>
+        <element name="Scheduler" positionX="-54" positionY="27" width="128" height="88"/>
+        <element name="Setting" positionX="-201.5859375" positionY="29.22265625" width="128" height="88"/>
+    </elements>
+</model>
